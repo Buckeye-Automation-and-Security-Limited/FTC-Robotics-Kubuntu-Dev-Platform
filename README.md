@@ -4,7 +4,7 @@ Scripts to automate setting up a laptop for robotics development on Kubuntu v26.
 =====
 Open the terminal, Download this project
 
-```wget -P ~/Desktop https://github.com/bradchesney79/Provision-WE-Robotics-Java-Android/archive/refs/heads/main.zip```
+```wget -P ~/Desktop https://github.com/Buckeye-Automation-and-Security-Limited/FTC-Robotics-Kubuntu-Dev-Platform/archive/refs/heads/main.zip```
 
 ```cd ~/Desktop```
 
