@@ -1,0 +1,18 @@
+PROVISIONING CONFIG FILE
+This and all the other files assume that you will not try to hack yourself and that you are a low value target not worth the effort to "hack" by others.
+
+#The email for the github account
+GITEMAIL=you@example.com
+
+#The actual government name of the github user or a user alias or handle or gamertag
+GITNAME=Your Name
+
+#The details to put into sshfs
+#BACKUPDESTINATIONHOST=hostname.tld
+#BACKUPDESTINATIONUSER=you
+#BACKUPDESTINATIONPASS=password
+#BACKUPDESTINATIONCERT=/home/user/ssh/hostname/encryptionkey.pub
+#BACKUPDESTINATIONPATH=/remotebackups/directory/example
+
+#The local storage path or mounted sshfs path
+LOCALBACKUPDIR=/backups/directory/example
