@@ -1,4 +1,4 @@
-# Provision-WE-Robotics-Java-Android
+# FTC-Robotics-Kubuntu-Dev-Platform
 Scripts to automate setting up a laptop for robotics development on Kubuntu v26.04.
 
 =====
@@ -10,7 +10,7 @@ Open the terminal, Download this project
 
 ```unzip main.zip```
 
-```cd ~/Provision-WE-Robotics-Java-Android```
+```cd ~/FTC-Robotics-Kubuntu-Dev-Platform```
 
 =====
 Edit config.txt
