@@ -20,6 +20,8 @@
 
 . android-studio.sh
 
+. intellij.sh
+
 . ms-gpg-key.sh
 
 . vscode.sh
