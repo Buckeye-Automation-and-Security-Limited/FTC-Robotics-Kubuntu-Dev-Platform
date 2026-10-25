@@ -18,11 +18,5 @@ qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "panel
 sed -i -E "s|launchers.*|launchers=applications:systemsettings.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,preferred://browser,applications:org.kde.kate.desktop|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 
 #kwallet .kwl files are only configurable via gui, turning off due to this low security needs application
-#kwallet .kwl files are only configurable via gui, turning off due to this low security needs application
 
 kwriteconfig6 --file kwalletrc --group 'Wallet' --key 'Enabled' 'false'
-
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-sudo wget -P /tmp/flathub.gpg https://flathub.org/repo/flathub.gpg
-
