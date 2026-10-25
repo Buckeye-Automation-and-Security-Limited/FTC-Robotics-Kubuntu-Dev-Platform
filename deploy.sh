@@ -30,11 +30,19 @@
 
 . chrome.sh
 
+. flatpak.sh
+
+. blender.sh
+
+. bambu.sh
+
 . cura.sh
 
 . git.sh
 
 . optional-kde-settings.sh
+
+#. command-prompt.sh
 
 . cleanup.sh
 
