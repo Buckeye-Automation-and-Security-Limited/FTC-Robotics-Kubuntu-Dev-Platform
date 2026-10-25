@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-flatpak install flathub com.ultimaker.cura
+flatpak install -y flathub com.ultimaker.cura
 
