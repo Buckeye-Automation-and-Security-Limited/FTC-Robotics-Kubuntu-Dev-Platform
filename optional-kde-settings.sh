@@ -22,14 +22,7 @@ sed -i -E "s|launchers.*|launchers=applications:systemsettings.desktop,applicati
 
 kwriteconfig6 --file kwalletrc --group 'Wallet' --key 'Enabled' 'false'
 
-#use gearlever to automagically make the Cura AppImage look native in the program menu
-
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 sudo wget -P /tmp/flathub.gpg https://flathub.org/repo/flathub.gpg
 
-sudo flatpak -y install flathub it.mijorus.gearlever
-
-yes | flatpak run it.mijorus.gearlever --integrate ~/Applications/Cura.AppImage
-
-sed -i 's/Categories.*/Categories=Multimedia/g' ~/.local/share/applications/ultimaker_cura.desktop
